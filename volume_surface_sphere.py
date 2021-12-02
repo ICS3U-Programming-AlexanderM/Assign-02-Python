@@ -19,7 +19,7 @@ def main():
     print("")
     # Set variables with input
     unit = input(Fore.RED + "Enter the units: ")
-    radius = int(input("Enter the radius ({}): ". format(unit)))
+    radius = float(input("Enter the radius ({}): ". format(unit)))
     decimal = int(input(
         "How many decimal places would you like the answer to be rounded to: "
         ))
